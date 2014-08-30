@@ -28,7 +28,7 @@ function clearCache() {
 var retries = 0;
 function onCapturePhoto(fileURI) {
     var win = function (r) {
-        $('#smallImage').attr('src',  fileURI);
+        $('#picture-1').css("background-image", "url(" + fileURI + ")");
         clearCache();
         retries = 0;
         alert('Done!');
@@ -57,7 +57,9 @@ function onCapturePhoto(fileURI) {
     $('#progress-div').html('');
     ft.onprogress = function(progressEvent) {
         if (progressEvent.lengthComputable) {
-            $('#progress-div').html(progressEvent.loaded / progressEvent.total);
+            var p = Math.round(100* progressEvent.loaded / progressEvent.total);
+            $('#progress-div').html(p);
+            $('#progress-bar-1').css("width", p + "%");
         }
     };
 }

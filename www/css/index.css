@@ -10,3 +10,31 @@ body {
     background-color:#E4E4E4;
 }
 
+.text-center {
+    text-align: center;
+}
+
+
+.progress-bar {
+    position: relative;
+    height: 5px;
+    background-color: #ff8339;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+
+#progress-bar-1 {
+    width: 0;
+}
+
+.picture-holder {
+    padding: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+#picture-1 {
+    background-image: url("../img/logo.png");
+}
