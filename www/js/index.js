@@ -11,7 +11,8 @@ var pictureSource;   // picture source
 var destinationType; // sets the format of returned value
 
 function onDeviceReady() {
-    pictureSource = navigator.camera.PictureSourceType;
+    //pictureSource = navigator.camera.PictureSourceType;
+    pictureSource = navigator.camera.PictureSourceType.PhotoLibrary;
     destinationType = navigator.camera.DestinationType;
     renderUI();
 }

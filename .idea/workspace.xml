@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08fa3f66-f07f-44d6-a8f3-9962e459592b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nonna-app.iws" />
@@ -35,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="18" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.94168097" vertical-offset="233" max-vertical-offset="1088">
+            <state line="29" column="39" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-6.076923" vertical-offset="335" max-vertical-offset="1088">
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -56,11 +57,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-              <folding />
+            <state line="16" column="15" selection-start="454" selection-end="454" vertical-scroll-proportion="0.41318327" vertical-offset="15" max-vertical-offset="969">
+              <folding>
+                <element signature="n#!!block;n#onCapturePhoto#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,9 +87,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/js/fastClick.js" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/css/index.css" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
       </list>
     </option>
   </component>
@@ -249,7 +252,11 @@
       <created>1409416040223</created>
       <updated>1409416040223</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="no comment">
+      <created>1409418809156</created>
+      <updated>1409418809156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -312,7 +319,9 @@
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="54" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1598">
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#onCapturePhoto#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -336,7 +345,9 @@
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="54" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1598">
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#onCapturePhoto#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,19 +381,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="18" selection-start="2299" selection-end="2299" vertical-scroll-proportion="0.94168097" vertical-offset="233" max-vertical-offset="1088">
+        <state line="29" column="39" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-6.076923" vertical-offset="335" max-vertical-offset="1088">
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="15" selection-start="454" selection-end="454" vertical-scroll-proportion="0.41318327" vertical-offset="15" max-vertical-offset="969">
+          <folding>
+            <element signature="n#!!block;n#onCapturePhoto#0" expanded="false" />
           </folding>
         </state>
       </provider>
