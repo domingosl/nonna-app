@@ -1,5 +1,5 @@
 $('#take-photo-button').click(function() {
-    capturePhoto();
+    getPhoto(pictureSource.PHOTOLIBRARY);
 });
 
 function renderUI() {
@@ -11,8 +11,7 @@ var pictureSource;   // picture source
 var destinationType; // sets the format of returned value
 
 function onDeviceReady() {
-    //pictureSource = navigator.camera.PictureSourceType;
-    pictureSource = navigator.camera.PictureSourceType.PhotoLibrary;
+    pictureSource = navigator.camera.PictureSourceType;
     destinationType = navigator.camera.DestinationType;
     renderUI();
 }
@@ -51,10 +50,11 @@ function onCapturePhoto(fileURI) {
     ft.upload(fileURI, encodeURI("http://infoabout.me/nonna/upload.php"), win, fail, options);
 }
 
-function capturePhoto() {
+function getPhoto(source) {
     navigator.camera.getPicture(onCapturePhoto, onFail, {
         quality: 100,
-        destinationType: destinationType.FILE_URI
+        destinationType: destinationType.FILE_URI,
+        sourceType: source
     });
 }
 
