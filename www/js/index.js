@@ -55,13 +55,14 @@ function onCapturePhoto(fileURI) {
     ft = new FileTransfer();
     ft.upload(fileURI, encodeURI("http://infoabout.me/nonna/upload.php"), win, fail, options);
     $('#progress-div').html('');
+    ft.onprogress = function(progressEvent) {
+        if (progressEvent.lengthComputable) {
+            $('#progress-div').html(progressEvent.loaded / progressEvent.total);
+        }
+    };
 }
 
-ft.onprogress = function(progressEvent) {
-    if (progressEvent.lengthComputable) {
-        $('#progress-div').html(progressEvent.loaded / progressEvent.total);
-    }
-};
+
 
 function getPhoto(source) {
     if( typeof source == 'undefined')

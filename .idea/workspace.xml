@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08fa3f66-f07f-44d6-a8f3-9962e459592b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -61,7 +60,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="8" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.24758843" vertical-offset="798" max-vertical-offset="1751">
+            <state line="56" column="32" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.329582" vertical-offset="747" max-vertical-offset="1768">
               <folding />
             </state>
           </provider>
@@ -87,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/www/js/fastClick.js" />
         <option value="$PROJECT_DIR$/www/css/index.css" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
       </list>
     </option>
   </component>
@@ -263,7 +262,11 @@
       <created>1409421595099</created>
       <updated>1409421595099</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="no comment">
+      <created>1409426748798</created>
+      <updated>1409426748798</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -399,7 +402,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="8" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.24758843" vertical-offset="798" max-vertical-offset="1751">
+        <state line="56" column="32" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.329582" vertical-offset="747" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
