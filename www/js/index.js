@@ -1,5 +1,9 @@
-$('#take-photo-button').click(function() {
+$('#import-photo-button').click(function() {
     getPhoto(pictureSource.PHOTOLIBRARY);
+});
+
+$('#take-photo-button').click(function() {
+    getPhoto();
 });
 
 function renderUI() {
@@ -9,6 +13,7 @@ function renderUI() {
 
 var pictureSource;   // picture source
 var destinationType; // sets the format of returned value
+var ft;
 
 function onDeviceReady() {
     pictureSource = navigator.camera.PictureSourceType;
@@ -23,6 +28,7 @@ function clearCache() {
 var retries = 0;
 function onCapturePhoto(fileURI) {
     var win = function (r) {
+        $('#smallImage').attr('src',  "data:image/jpeg;base64," + fileURI);
         clearCache();
         retries = 0;
         alert('Done!');
@@ -46,16 +52,29 @@ function onCapturePhoto(fileURI) {
     options.fileName = fileURI.substr(fileURI.lastIndexOf('/') + 1);
     options.mimeType = "image/jpeg";
     options.params = {}; // if we need to send parameters to the server request
-    var ft = new FileTransfer();
+    ft = new FileTransfer();
     ft.upload(fileURI, encodeURI("http://infoabout.me/nonna/upload.php"), win, fail, options);
+    $('#progress-div').html('');
 }
 
+ft.onprogress = function(progressEvent) {
+    if (progressEvent.lengthComputable) {
+        $('#progress-div').html(progressEvent.loaded / progressEvent.total);
+    }
+};
+
 function getPhoto(source) {
-    navigator.camera.getPicture(onCapturePhoto, onFail, {
-        quality: 100,
-        destinationType: destinationType.FILE_URI,
-        sourceType: source
-    });
+    if( typeof source == 'undefined')
+        navigator.camera.getPicture(onCapturePhoto, onFail, {
+            quality: 100,
+            destinationType: destinationType.FILE_URI,
+        });
+    else
+        navigator.camera.getPicture(onCapturePhoto, onFail, {
+            quality: 100,
+            destinationType: destinationType.FILE_URI,
+            sourceType: source
+        });
 }
 
 function onFail(message) {
