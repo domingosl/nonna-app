@@ -28,7 +28,7 @@ function clearCache() {
 var retries = 0;
 function onCapturePhoto(fileURI) {
     var win = function (r) {
-        $('#smallImage').attr('src',  "data:image/jpeg;base64," + fileURI);
+        $('#smallImage').attr('src',  fileURI);
         clearCache();
         retries = 0;
         alert('Done!');
