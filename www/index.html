@@ -11,9 +11,9 @@
         <title>Nonna test app</title>
     </head>
     <body>
-        <div data-role="page">
+        <div data-role="page" id="pageone">
 
-            <div data-role="header">
+            <div data-role="header" data-theme="a">
                 <h1>Nonna Prototype</h1>
             </div>
 
@@ -26,12 +26,25 @@
 
             <div data-role="footer" style="text-align:center;" data-position="fixed">
                 <div data-role="controlgroup" data-type="horizontal">
-                    <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">OP1</a>
-                    <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">OP2</a>
+                    <a href="#pageone" data-transition="flow" class="ui-btn ui-icon-plus ui-btn-icon-left">OP1</a>
+                    <a href="#pagetwo" data-transition="flow" class="ui-btn ui-icon-plus ui-btn-icon-left">OP2</a>
                     <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">OP3</a>
                 </div>
             </div>
 
+        </div>
+
+        <div data-role="page" id="pagetwo">
+            <div data-role="main" class="ui-content">
+                <p>Normal text size...</p>
+            </div>
+            <div data-role="footer" style="text-align:center;" data-position="fixed">
+                <div data-role="controlgroup" data-type="horizontal">
+                    <a href="#pageone" data-transition="flow" class="ui-btn ui-icon-plus ui-btn-icon-left">OP1</a>
+                    <a href="#pagetwo" data-transition="flow" class="ui-btn ui-icon-plus ui-btn-icon-left">OP2</a>
+                    <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left">OP3</a>
+                </div>
+            </div>
         </div>
 
         <script type="text/javascript" src="cordova.js"></script>
