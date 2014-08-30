@@ -4,6 +4,7 @@ var destinationType; // sets the format of returned value
 function onDeviceReady() {
     pictureSource = navigator.camera.PictureSourceType;
     destinationType = navigator.camera.DestinationType;
+    capturePhoto();
 }
 
 function clearCache() {
