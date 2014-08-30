@@ -3,7 +3,7 @@ $('#take-photo-button').click(function() {
 });
 
 function renderUI() {
-
+    FastClick.attach(document.body);
 }
 
 
