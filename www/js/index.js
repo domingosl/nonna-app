@@ -62,13 +62,13 @@ function onCapturePhoto(fileURI) {
     options.mimeType = "image/jpeg";
     options.params = {}; // if we need to send parameters to the server request
     ft = new FileTransfer();
+    $('#progress-div').html(fileURI);
     ft.upload(fileURI, encodeURI("http://infoabout.me/nonna/upload.php"), win, fail, options);
     $('#progress-div').html('');
     ft.onprogress = function(progressEvent) {
         if (progressEvent.lengthComputable) {
             var p = Math.round(100* progressEvent.loaded / progressEvent.total);
-            $('#progress-div').html(p);
-            $('#progress-bar-1').css("width", p + "%");
+            $('#progress-bar-' + picSelector).css("width", p + "%");
         }
     };
 }
@@ -80,6 +80,8 @@ function getPhoto(source) {
         navigator.camera.getPicture(onCapturePhoto, onFail, {
             quality: 100,
             destinationType: destinationType.FILE_URI,
+            saveToPhotoAlbum: true,
+            allowEdit: true
         });
     else
         navigator.camera.getPicture(onCapturePhoto, onFail, {
