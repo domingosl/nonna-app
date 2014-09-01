@@ -1,10 +1,19 @@
+var picSelector;
+
 $('#import-photo-button').click(function() {
+    $('#pic-origin').dialog('close');
     getPhoto(pictureSource.PHOTOLIBRARY);
 });
 
 $('#take-photo-button').click(function() {
+    $('#pic-origin').dialog('close');
     getPhoto();
 });
+
+$('.picture-holder').click(function() {
+    picSelector = $(this).data('picture');
+    $.mobile.changePage('#pic-origin', 'slidedown', true, true);
+})
 
 function renderUI() {
     FastClick.attach(document.body);
@@ -28,7 +37,7 @@ function clearCache() {
 var retries = 0;
 function onCapturePhoto(fileURI) {
     var win = function (r) {
-        $('#picture-1').css("background-image", "url(" + fileURI + ")");
+        $('#picture-' + picSelector).css("background-image", "url(" + fileURI + ")");
         clearCache();
         retries = 0;
         alert('Done!');

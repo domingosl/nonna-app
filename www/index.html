@@ -25,16 +25,19 @@
 
                 <div class="ui-grid-b">
                     <div class="ui-block-a text-center">
-                        <div id="picture-1" class="picture-holder">
+                        <div id="picture-1" class="picture-holder" data-picture="1">
                             <div id="progress-bar-1" class="progress-bar"></div>
-
                         </div>
                     </div>
                     <div class="ui-block-b text-center">
-                        <img style="width:60px;height:60px;" id="smallImage2" src="img/logo.png" />
+                        <div id="picture-2" class="picture-holder" data-picture="2">
+                            <div id="progress-bar-2" class="progress-bar"></div>
+                        </div>
                     </div>
                     <div class="ui-block-c text-center">
-                        <img style="width:60px;height:60px;" id="smallImage3" src="img/logo.png" />
+                        <div id="picture-3" class="picture-holder" data-picture="3">
+                            <div id="progress-bar-3" class="progress-bar"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -42,9 +45,6 @@
 
                 <div class="text-center">
                     <div id="progress-div">...</div>
-
-                    <button id="import-photo-button" type="button">Import photo</button>
-                    <button id="take-photo-button" type="button">Take photo</button>
                 </div>
             </div>
 
@@ -70,6 +70,18 @@
                 </div>
             </div>
         </div>
+
+       <div data-role="dialog" id="pic-origin">
+            <div data-role="header">
+                <h1>Picture Origin</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <button id="import-photo-button" type="button">Import photo</button>
+                <button id="take-photo-button" type="button">Take photo</button>
+            </div>
+        </div>
+
 
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>

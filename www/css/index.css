@@ -23,18 +23,18 @@ body {
     transition: width 1s;
 }
 
-#progress-bar-1 {
+#progress-bar-1, #progress-bar-2, #progress-bar-3 {
     width: 0;
 }
 
 .picture-holder {
-    padding: 5px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 60px;
-    height: 60px;
+    width: 90%;
+    height: 128px;
+    position: relative;
 }
 
-#picture-1 {
+#picture-1, #picture-2, #picture-3 {
     background-image: url("../img/logo.png");
 }

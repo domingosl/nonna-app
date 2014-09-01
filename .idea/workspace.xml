@@ -40,30 +40,29 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="72" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-8.5" vertical-offset="255" max-vertical-offset="1496">
+            <state line="27" column="30" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-6.5384617" vertical-offset="289" max-vertical-offset="1513">
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="12" selection-start="731" selection-end="731" vertical-scroll-proportion="0.67202574" vertical-offset="24" max-vertical-offset="765">
+            <state line="16" column="0" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="39" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1802">
+            <state line="39" column="67" selection-start="936" selection-end="936" vertical-scroll-proportion="0.5080386" vertical-offset="347" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -88,9 +87,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/js/fastClick.js" />
+        <option value="$PROJECT_DIR$/www/css/index.css" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
-        <option value="$PROJECT_DIR$/www/css/index.css" />
       </list>
     </option>
   </component>
@@ -293,7 +292,11 @@
       <created>1409431450345</created>
       <updated>1409431450345</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="no comment">
+      <created>1409438848146</created>
+      <updated>1409438848146</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -347,9 +350,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="14" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="646">
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -373,9 +375,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="14" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="646">
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -411,28 +412,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+    <entry file="file://$PROJECT_DIR$/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="39" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1802">
+        <state line="16" column="0" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="72" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-8.5" vertical-offset="255" max-vertical-offset="1496">
+        <state line="27" column="30" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-6.5384617" vertical-offset="289" max-vertical-offset="1513">
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="731" selection-end="731" vertical-scroll-proportion="0.67202574" vertical-offset="24" max-vertical-offset="765">
+        <state line="39" column="67" selection-start="936" selection-end="936" vertical-scroll-proportion="0.5080386" vertical-offset="347" max-vertical-offset="1955">
           <folding />
         </state>
       </provider>
